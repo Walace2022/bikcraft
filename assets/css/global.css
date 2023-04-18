@@ -1,0 +1,22 @@
+:root{
+    --w: #ffffff;
+    --c12: #000000;
+}
+
+body{
+    margin: 0;
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+    padding: 0;
+}   
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
