@@ -1,25 +1,35 @@
 :root{
     --w: #ffffff;
     --c12: #000000;
+    --c5: #b2b2b2;
+    --p5: #332200;
+    --gradient: linear-gradient(#ffbf00,#f2a50c);
+    --font-1-xxl: 'Poppins', sans-serif 600;
 }
 
 body{
     margin: 0;
+    padding-bottom: 600px;
+    
 }
 
 h1,h2,h3,p,ul{
     margin: 0;
     padding: 0;
 }
-  
+
 img{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    display: block;
 } 
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.grid{
+    display: grid;
 }
 
 .flex{
